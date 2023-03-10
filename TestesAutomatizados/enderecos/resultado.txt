@@ -1,0 +1,7 @@
+mode: set
+tipos-validos/enderecos/enderecos.go:6.45,18.36 5 1
+tipos-validos/enderecos/enderecos.go:24.2,24.20 1 1
+tipos-validos/enderecos/enderecos.go:28.2,28.24 1 0
+tipos-validos/enderecos/enderecos.go:18.36,19.40 1 1
+tipos-validos/enderecos/enderecos.go:19.40,21.4 1 1
+tipos-validos/enderecos/enderecos.go:24.20,26.3 1 1

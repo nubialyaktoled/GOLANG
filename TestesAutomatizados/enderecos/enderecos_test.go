@@ -11,11 +11,10 @@ import (
 func TestTipoDeEndereco(t *testing.T) {
 	enderecoParaTeste := "Rua Paulista"
 	wantEndereco := "Rua"
-
 	gotEndereco := TipoDeEndereco(enderecoParaTeste)
 
 	if wantEndereco != gotEndereco {
-		t.Error("O tipo de endereço recebido é diferente do esperado")
+		t.Errorf("O tipo de endereço recebido é diferente do esperado, esperava %s, recebi %s", wantEndereco, gotEndereco)
 	}
 
 }
