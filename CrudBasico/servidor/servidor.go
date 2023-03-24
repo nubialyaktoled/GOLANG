@@ -61,3 +61,11 @@ func CriarUsuario(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusCreated)
 	w.Write([]byte(fmt.Sprintf("Usuario inserido com sucesso! Id: %d", idInserido)))
 }
+
+func BuscarUsuarios(w http.ResponseWriter, r *http.Request) {
+
+}
+
+func BuscarUsuario(w http.ResponseWriter, r *http.Request) {
+
+}
